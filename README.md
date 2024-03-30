@@ -12,4 +12,13 @@ The area shown as a chip is called core area.Inside the chip contains transistor
 Pads are the area where connection points at the chips exterior that connects the package of the chip.
 Die is the core without the package outside it.Simply it is the fabricated area without pin mapping.
 IPS is abbreviated as "Inches Per Square" which is a parameter to specify number of components on the chip.As number of components on the chip increases the density of components will increase.
-Introduction to 
+Introduction to RISC-V
+Before knowing  about Risc-v processors lets know CISC processor.
+CISC-Complex Instruction Set computer:which is used to perform complex calculations.
+RISC-Reduced Instruction Set Computing:It is the basic processor which performs simple tasks and computations.
+ISA(Instruction Set Architecture):ISA includes the with the specific architecture,which enables the computer to understand the in instructions to perform specific task.
+Among CISC and RISC processors,RISC processors are preferable because it provides us or the designer with less complexity,flexible to different tasks,And simple instruction set,and mainly it is compatible to all users to workwith.
+![Screenshot 2024-03-24 074634](https://github.com/Deepthi-417/Physica_design_using_openlane/assets/107666398/a28cc39b-05c6-4db6-a1f7-8855e7907ac4)
+              Fig.RISCV SOC 
+The above figure shows the RISCV SOC which is used in chips.
+Before getting started with the Openlane.Let us see one example.Let us assume we are working with an application example,stop watch app.While designing that app we write a set code which is understand by the human i.e, C,C++,Python etc,That is what we see on the computer screen.But behind the computer screen there is series of operations that are being for a while.Compiler converts the human understandable language to machine understandable code .Compiler converts high level code to instructions formar and then to .exe executable files and then,to 1's and 0's whcih is machine language.It is processed inside the hardware inside the computer.
